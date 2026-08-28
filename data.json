@@ -48,9 +48,9 @@
         "id": 6,
         "name": "イベントホール",
         "area": "イベント",
-        "wait": 0,
+        "wait": 60,
         "status": "open",
         "image": "images/event-hail.jpg",
-        "description": "イベントショー開催中です。"
+        "description": "次のイベントは一時間後です。"
     }
 ]
