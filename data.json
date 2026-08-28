@@ -21,10 +21,10 @@
         "id": 3,
         "name": "ノームトレイン",
         "area": "ファミリーゾーン",
-        "wait": 0,
-        "status": "closed",
+        "wait": 10,
+        "status": "open",
         "image": "images/gnome-train.jpg",
-        "description": "小さなお子様にも人気。(休止中)"
+        "description": "小さなお子様にも人気。"
     },
     {
         "id": 4,
@@ -48,9 +48,9 @@
         "id": 6,
         "name": "イベントホール",
         "area": "イベント",
-        "wait": 60,
+        "wait": 0,
         "status": "open",
         "image": "images/event-hail.jpg",
-        "description": "次のイベントは一時間後です。"
+        "description": "イベント開催中です！"
     }
 ]
