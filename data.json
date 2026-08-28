@@ -3,7 +3,7 @@
         "id": 1,
         "name": "レッドファルコン",
         "area": "スリルゾーン",
-        "wait": 50,
+        "wait": 40,
         "status": "open",
         "image": "images/red-falcon.jpg",
         "description": "最高速度約70km/hの木製コースター。"
