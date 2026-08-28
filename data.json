@@ -39,7 +39,7 @@
         "id": 5,
         "name": "ファンタジークルーズ",
         "area": "ファミリーゾーン",
-        "wait": 10,
+        "wait": 15,
         "status": "open",
         "image": "images/fantasy-cruise.jpg",
         "description": "ゆったり楽しめる人気アトラクション。"
