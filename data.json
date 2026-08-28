@@ -30,7 +30,7 @@
         "id": 4,
         "name": "スカイウォーカー",
         "area": "アドベンチャーゾーン",
-        "wait": 20,
+        "wait": 40,
         "status": "open",
         "image": "images/skywalker_.jpg",
         "description": "空中散歩を楽しめます。"
