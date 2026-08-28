@@ -1,34 +1,36 @@
 let attractions = [];
 
-async function loadData() {
+async function loadData(keyword = "") {
 
     try {
 
-        const response = await fetch("./data.json");
+        const response = await fetch("./data.json", {
+
+            cache: "no-store"
+
+        });
 
         if (!response.ok) {
 
-            throw new Error("data.jsonを読み込めませんでした");
+            throw new Error("data.jsonの読み込みに失敗しました");
 
         }
 
         attractions = await response.json();
 
-        console.log("読み込んだデータ:", attractions);
-
-        render();
+        render(keyword);
 
     } catch (error) {
 
-        console.error("データ読み込みエラー:", error);
+        console.error(error);
 
         list.innerHTML = `
 
             <div class="card">
 
-                <h2>⚠️ データを読み込めません</h2>
+                <h2>⚠️ 更新できませんでした</h2>
 
-                <p>data.jsonが正しく読み込まれていません。</p>
+                <p>データを取得できませんでした。</p>
 
             </div>
 
@@ -172,9 +174,17 @@ search.addEventListener("input", e => {
 
 });
 
-reload.addEventListener("click", () => {
+reload.addEventListener("click", async () => {
 
-    render(search.value);
+    reload.textContent = "更新中...";
+
+    reload.disabled = true;
+
+    await loadData(search.value);
+
+    reload.textContent = "更新";
+
+    reload.disabled = false;
 
 });
 
