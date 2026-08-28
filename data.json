@@ -12,7 +12,7 @@
         "id": 2,
         "name": "ジャイアントドロップ メテオ",
         "area": "スリルゾーン",
-        "wait": 30,
+        "wait": 50,
         "status": "open",
         "image": "images/giant-meteotic.png",
         "description": "地上約50mから一気に急降下。"
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "スカイウォーカー",
         "area": "アドベンチャーゾーン",
-        "wait": 45,
+        "wait": 35,
         "status": "open",
         "image": "images/skywalker_.jpg",
         "description": "空中散歩を楽しめます。"
