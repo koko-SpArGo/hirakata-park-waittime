@@ -3,7 +3,7 @@
         "id": 1,
         "name": "レッドファルコン",
         "area": "スリルゾーン",
-        "wait": 30,
+        "wait": 45,
         "status": "open",
         "image": "images/red-falcon.jpg",
         "description": "最高速度約70km/hの木製コースター。"
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "ジャイアントドロップ メテオ",
         "area": "スリルゾーン",
-        "wait": 40,
+        "wait": 50,
         "status": "open",
         "image": "images/giant-meteotic.png",
         "description": "地上約50mから一気に急降下。"
@@ -21,7 +21,7 @@
         "id": 3,
         "name": "ノームトレイン",
         "area": "ファミリーゾーン",
-        "wait": 15,
+        "wait": 35,
         "status": "open",
         "image": "images/gnome-train.jpg",
         "description": "小さなお子様にも人気。"
@@ -30,7 +30,7 @@
         "id": 4,
         "name": "スカイウォーカー",
         "area": "アドベンチャーゾーン",
-        "wait": 20,
+        "wait": 30,
         "status": "open",
         "image": "images/skywalker_.jpg",
         "description": "空中散歩を楽しめます。"
@@ -39,18 +39,18 @@
         "id": 5,
         "name": "ファンタジークルーズ",
         "area": "ファミリーゾーン",
-        "wait": 25,
-        "status": "closed",
+        "wait": 35,
+        "status": "open",
         "image": "images/fantasy-cruise.jpg",
-        "description": "ゆったり楽しめる人気アトラクション。(休止中)"
+        "description": "ゆったり楽しめる人気アトラクション。"
     },
     {
         "id": 6,
         "name": "イベントホール",
         "area": "イベントショー",
-        "wait": 120,
+        "wait": 0,
         "status": "open",
         "image": "images/event-hail.jpg",
-        "description": "二時間後にショーが始まります！"
+        "description": "イベントショー開催中です！"
     }
 ]
