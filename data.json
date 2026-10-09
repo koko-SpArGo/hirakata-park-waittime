@@ -3,7 +3,7 @@
         "id": 1,
         "name": "レッドファルコン",
         "area": "スリルゾーン",
-        "wait": 10,
+        "wait": 0,
         "status": "open",
         "image": "images/red-falcon.jpg",
         "description": "最高速度約70km/hの木製コースター。"
@@ -15,7 +15,7 @@
         "wait": 0,
         "status": "closed",
         "image": "images/giant-meteotic.png",
-        "description": "地上約50mから一気に急降下。"
+        "description": "アトラクションは営業を終了いたしました。"
     },
     {
         "id": 3,
